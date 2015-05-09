@@ -1,0 +1,210 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/back_land"
+    tools:context="ru.besuglovs.games.numbers.SingleGameActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/movesList"
+            android:scrollbars="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:padding="0dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/guessNumber"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="1"
+                    android:textOff="1"
+                    android:minWidth="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button1"
+                    android:layout_margin="0dp"
+                    android:checked="true" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="2"
+                    android:textOff="2"
+                    android:minWidth="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button2"
+                    android:layout_margin="0dp" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="3"
+                    android:textOff="3"
+                    android:minWidth="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button3" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="4"
+                    android:textOff="4"
+                    android:minWidth="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button4" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="5"
+                    android:textOff="5"
+                    android:minWidth="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button5" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_single_game_make_move"
+                    android:layout_weight="1"
+                    android:id="@+id/makeMove" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/digits15"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="1"
+                    android:textOff="1"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit1"
+                    android:layout_margin="0dp"
+                    android:checked="true" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="2"
+                    android:textOff="2"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit2"
+                    android:layout_margin="0dp" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="3"
+                    android:textOff="3"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit3" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="4"
+                    android:textOff="4"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit4" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="5"
+                    android:textOff="5"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit5" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/digits60"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="6"
+                    android:textOff="6"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit6" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="7"
+                    android:textOff="7"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit7" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="8"
+                    android:textOff="8"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit8" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="9"
+                    android:textOff="9"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit9" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="0"
+                    android:textOff="0"
+                    android:layout_weight="1"
+                    android:minWidth="20dp"
+                    android:id="@+id/digit0" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

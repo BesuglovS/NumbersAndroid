@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Числа</string>
+    <string name="activity_about_about_text"><![CDATA[Версия 1.0<br />Исходный код игры вы можете посмотреть в репозитории по адресу: <a href="https://github.com/BesuglovS/NumbersAndroid">https://github.com/BesuglovS/NumbersAndroid</a>]]></string>
+    <string name="activity_about_title">Числа - О программе</string>
+    <string name="activity_analysis_possible_move">"Возможный ход = </string>
+    <string name="activity_analysis_possible_moves_count">"Возможных ходов: </string>
+    <string name="activity_analysis_title">Числа - Анализ позиции</string>
+    <string name="activity_computer_game_guess_is_right">Число угадано.</string>
+    <string name="activity_computer_game_set_own_number">Задумайте число</string>
+    <string name="activity_computer_game_title">Числа - Компьютерная игра</string>
+    <string name="activity_double_game_title">Числа - Двойная игра</string>
+    <string name="activity_rules_title">Числа - Правила</string>
+    <string name="activity_single_game_title">Числа - Одиночная игра</string>
+    <string name="activity_single_game_you_won">Вы победили!</string>
+    <string name="distinct_digits">В числе не должно быть одинаковых цифр.</string>
+    <string name="double_game_activity_continue">Далее</string>
+    <string name="double_or_computer_game_activity_make_move">Сделать ход</string>
+    <string name="double_game_activity_swith_view">Переключить вид</string>
+    <string name="main_menu_about">О программе</string>
+    <string name="main_menu_analysis">Анализ позиции</string>
+    <string name="main_menu_computer_game">Компьютерная игра</string>
+    <string name="main_menu_double_game">Двойная игра</string>
+    <string name="main_menu_exit">Выход</string>
+    <string name="main_menu_rules">Правила</string>
+    <string name="main_menu_single_game">Одиночная игра</string>
+    <string name="rules1">В начале игры каждый из игроков задумывает число из 5 неповторяющихся цифр, которое соперник пытается угадать. Угадывание происходит в форме ходов, когда игрок в ответ на попытку (здесь также не может быть повторяющихся цифр) получает счёт (2 цифры), которые обозначают количество цифр совпадающих в попытке и задуманном числе и количество совпавших цифр, оказавшихся на одинаковых позициях.</string>
+</resources>

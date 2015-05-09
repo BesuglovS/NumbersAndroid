@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numbers</string>
+    <string name="activity_about_title">Numbers - About</string>
+    <string name="activity_analysis_possible_move">Possible move = </string>
+    <string name="activity_analysis_possible_moves_count">Number of possible moves: </string>
+    <string name="activity_analysis_title">Numbers - Analysis</string>
+    <string name="activity_computer_game_guess_is_right">Guess is right</string>
+    <string name="activity_computer_game_set_own_number">Pick a number</string>
+    <string name="activity_computer_game_title">Numbers - Computer game</string>
+    <string name="activity_double_game_title">Numbers - Double game</string>
+    <string name="activity_rules_title">Numbers - Rules</string>
+    <string name="activity_single_game_title">Numbers - Single game</string>
+    <string name="activity_single_game_you_won">Guess is right</string>
+    <string name="distinct_digits">In correct number</string>
+    <string name="double_game_activity_continue">next</string>
+    <string name="double_or_computer_game_activity_make_move">Computer move</string>
+    <string name="double_game_activity_swith_view">Switch view</string>
+    <string name="main_menu_about">About</string>
+    <string name="main_menu_analysis">Position analysis</string>
+    <string name="main_menu_computer_game">Computer game</string>
+    <string name="main_menu_double_game">Double game</string>
+    <string name="main_menu_exit">Exit</string>
+    <string name="main_menu_rules">Rules</string>
+    <string name="main_menu_single_game">Single game</string>
+    <string name="rules1">At the start of the game one player picks number of 5 distinct digits. Opponent tries to find it out. Attempt (also from disticts digits) are replied with score. First number indicates count of common digits in guess and picked number. Second is equal to number of equal digits that share the same position in a number.</string>
+    <string name="activity_about_about_text"><![CDATA[Версия 1.0<br />Source code is available on GitHub: <a href="https://github.com/BesuglovS/NumbersAndroid">https://github.com/BesuglovS/NumbersAndroid</a>]]></string>
+</resources>

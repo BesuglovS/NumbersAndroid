@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/AboutActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/AnalysisActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/ComputerGameActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/RecyclerView/RecyclerViewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/RulesActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/SingleGameActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/engines/DefaultEngine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/besuglovs/games/numbers/engines/INumsEngineInterface.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

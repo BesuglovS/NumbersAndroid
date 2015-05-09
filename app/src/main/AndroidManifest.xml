@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.besuglovs.games.numbers" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RulesActivity"
+            android:label="@string/activity_rules_title"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.besuglovs.games.numbers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SingleGameActivity"
+            android:label="@string/activity_single_game_title"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.besuglovs.games.numbers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ComputerGameActivity"
+            android:label="@string/activity_computer_game_title"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.besuglovs.games.numbers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AnalysisActivity"
+            android:label="@string/activity_analysis_title"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.besuglovs.games.numbers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/activity_about_title"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.besuglovs.games.numbers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DoubleGameActivity"
+            android:label="@string/activity_double_game_title"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.besuglovs.games.numbers.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

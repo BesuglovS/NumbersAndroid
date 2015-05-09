@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Числа</string>
+    <string name="activity_about_about_text"><![CDATA[Версия 1.0<br />Vous pouvez voir le code source du jeu dans le référentiel à l’adresse suivante : <a href="https://github.com/BesuglovS/NumbersAndroid">https://github.com/BesuglovS/NumbersAndroid</a>]]></string>
+    <string name="activity_about_title">Nombres - Sur le programme</string>
+    <string name="activity_analysis_possible_move">Cours possible =</string>
+    <string name="activity_analysis_possible_moves_count">Des mouvements possibles</string>
+    <string name="activity_analysis_title">Nombres - Analyse de la position</string>
+    <string name="activity_computer_game_guess_is_right">Nombre trouvé</string>
+    <string name="activity_computer_game_title">Nombres - Jeu d’ordinateur</string>
+    <string name="activity_computer_game_set_own_number">Pensez au nombre</string>
+    <string name="activity_rules_title">Nombres - Règles</string>
+    <string name="activity_single_game_title">Nombres - Jeu simple</string>
+    <string name="activity_single_game_you_won">Vous avez gagné!</string>
+    <string name="distinct_digits">Nombre incorrect</string>
+    <string name="double_game_activity_continue">Suite</string>
+    <string name="double_game_activity_swith_view">Changer de vue</string>
+    <string name="double_or_computer_game_activity_make_move">Faire un geste</string>
+    <string name="main_menu_about">Sur le programme</string>
+    <string name="main_menu_analysis">Analyse de la position</string>
+    <string name="main_menu_computer_game">Jeu d’ordinateur</string>
+    <string name="main_menu_double_game">Double jeu</string>
+    <string name="activity_double_game_title">Nombres - Double jeu</string>
+    <string name="main_menu_exit">Sortie</string>
+    <string name="main_menu_rules">Règles</string>
+    <string name="main_menu_single_game">Jeu simple</string>
+    <string name="rules1">Au début du jeu, chaque joueur pense au nombre de 5 chiffres non-répétitions, que   l’adversaire tente de deviner (trouver). La devination se passe sous la forme de   coups, quand un joueur en réponse à la tentative (ici aussi, il ne peut pas être la   répétition des chiffres) reçoit une facture (2 chiffres), qui indiquent le nombre de   chiffres coïncidents dans la tentative et le nombre conçu et le nombre de chiffres   coïncidés, pris sur les mêmes positions.</string>
+</resources>
